@@ -118,15 +118,25 @@ var items = [sphere, planet, ship, ananas, plane, polo, fish];
 
 
 
-            for(i=0;i < items.length;i++){
-          if(items[i].id == 2 && items[i].name == 'pineapple' ){
-          console.log(items[i])
-          }
-          }
-          var t = 1;
-  for(i=0;i<items.length;i++){
-  t*=items[i].size}
-  console.log(t);
+                     var service = {
+                          findMyObj: function (items, id, name) {
+                            for(var i=0; i < items.length; i++){
+                              if(items[i].id === id && items[i].name === name ) {
+                                return items[i];
+                              }
+                            }
+                         },
+                         calcMult: function (items23) {
+                         				var t = 1;
+                                for(var i=0;i<items23.length;i++){
+                                	 t*=items23[i].size;
+                                }
+                          			return t;
+                       }
+                   }
+
+               console.log('service', service.findMyObj(items, 2, 'pineapple'));
+               console.log('service', service.calcMult(items));
 
 
 
