@@ -33,28 +33,3 @@
     color: #000000;
     background-color: 	#808080 ;
 }
-.alert6 {
-colore
-}
-/* button {
-      transition: width 1s;
-      width: 100px;
-    }
-
-    .wide {
-      width: 300px;
-    }
-  </style>
-
-  <button id="elem" onclick="this.classList.toggle('wide');">
-      Нажми меня
-  </button>
-
-  <script>
-    elem.ontransitionend = function() {
-      alert( "ontransitionend" ); // не сработает
-    };
-
-    elem.addEventListener("transitionend", function() {
-      alert( "addEventListener" ); // сработает по окончании анимации
-    });
