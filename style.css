@@ -1,0 +1,60 @@
+.alert {
+    padding: 15px;
+    border: 10px solid #0000FF;
+    border-radius: 40px;
+    color: #000000;
+    background-color: #1E90FF;
+}
+.alert2 {
+    padding: 15px;
+    border: 15px solid #282828 ;
+    border-radius: 40px;
+    color: #000000;
+    background-color: #585858 ;
+}
+.alert3 {
+    padding: 15px;
+    border: 15px solid #200000 ;
+    border-radius: 4px;
+    color: #000000;
+    background-color: #600000 ;
+}
+.alert4 {
+    padding: 15px;
+    border: 15px solid #FF0000;
+    border-radius: 40px;
+    color: #000000;
+    background-color: #D8BFD8 ;
+}
+.alert5 {
+    padding: 15px;
+    border: 15px solid 	#FFD700;
+    border-radius: 40px;
+    color: #000000;
+    background-color: 	#808080 ;
+}
+.alert6 {
+colore
+}
+/* button {
+      transition: width 1s;
+      width: 100px;
+    }
+
+    .wide {
+      width: 300px;
+    }
+  </style>
+
+  <button id="elem" onclick="this.classList.toggle('wide');">
+      Нажми меня
+  </button>
+
+  <script>
+    elem.ontransitionend = function() {
+      alert( "ontransitionend" ); // не сработает
+    };
+
+    elem.addEventListener("transitionend", function() {
+      alert( "addEventListener" ); // сработает по окончании анимации
+    });
