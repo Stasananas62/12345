@@ -116,28 +116,58 @@ var fish = {
 
 var items = [sphere, planet, ship, ananas, plane, polo, fish];
 
+     var service = {
+          findMyObj: function (items, id, name) {
+            for(var i=0; i < items.length; i++){
+              if(items[i].id === id && items[i].name === name ) {
+                return items[i];
+              }
+            }
+
+         },
+         calcMult: function (items) {
+                        var t = 1;
+                for(var i=0;i<items.length;i++){
+                     t*=items[i].size;
+                }
+                    return t;
+       }
+   }
+
+console.log('service', service.findMyObj(items, 2, 'pineapple'));
+console.log('service', service.calcMult(items));
 
 
-                     var service = {
-                          findMyObj: function (items, id, name) {
-                            for(var i=0; i < items.length; i++){
-                              if(items[i].id === id && items[i].name === name ) {
-                                return items[i];
-                              }
-                            }
-                         },
-                         calcMult: function (items23) {
-                         				var t = 1;
-                                for(var i=0;i<items23.length;i++){
-                                	 t*=items23[i].size;
-                                }
-                          			return t;
-                       }
-                   }
+var div = document.createElement('div');
+div.className = "alert alert-success";
+div.innerHTML = "<strong>About<p>Me<p></strong>Ссылка на "+'<a href= https://vk.com/id95886564><strong>VK</strong></a>';
 
-               console.log('service', service.findMyObj(items, 2, 'pineapple'));
-               console.log('service', service.calcMult(items));
+document.body.appendChild(div);
 
+//document.body.insertAfter(div, document.body.firstChild);
+
+var div2 = document.createElement('div');
+div2.className = "alert2 alert2-success";
+div2.innerHTML = '<a href= https://www.instagram.com/stasananas62/><strong>instsgram</strong></a>';
+document.body.appendChild(div2);
+
+//document.body.insertAfter(div2,div);
+
+var div3 = document.createElement('div');
+div3.className = "alert3 alert3-success";
+div3.innerHTML = '<a href=https://www.facebook.com/>facebook</a>';
+document.body.appendChild(div3);
+
+//document.body.insertAfter(div3, document.body.firstChild);
+var div4 = document.createElement('div');
+div4.className = "alert4 alert4-success";
+div4.innerHTML = "Ссылка на мой github" +'<a href= https://github.com/Stasananas62/12345/blob/master/app.js>Github</a>';
+document.body.appendChild(div4);
+
+var div5 = document.createElement('div');
+div5.className = "alert5 alert5-success";
+div5.innerHTML ="Если грустно и одиноко то просто " + '<a href= http://met-mother.com/>ножми на меня)</a>';
+document.body.appendChild(div5);
 
 
 
