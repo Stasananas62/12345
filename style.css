@@ -2,34 +2,34 @@
     padding: 15px;
     border: 10px solid #0000FF;
     border-radius: 40px;
-    color: #000000;
+    color: 	#FFFACD;  //Цвет шрифта не по красоте подбирал)(относиться ко всем обїектам).
     background-color: #1E90FF;
 }
 .alert2 {
     padding: 15px;
     border: 15px solid #282828 ;
     border-radius: 40px;
-    color: #000000;
+    color: #ADD8E6;
     background-color: #585858 ;
 }
 .alert3 {
     padding: 15px;
     border: 15px solid #200000 ;
     border-radius: 4px;
-    color: #000000;
+    color: 	#F08080;
     background-color: #600000 ;
 }
 .alert4 {
     padding: 15px;
     border: 15px solid #FF0000;
     border-radius: 40px;
-    color: #000000;
+    color:	#E0FFFF;
     background-color: #D8BFD8 ;
 }
 .alert5 {
     padding: 15px;
     border: 15px solid 	#FFD700;
     border-radius: 40px;
-    color: #000000;
+    color: #FAFAD2;
     background-color: 	#808080 ;
 }
